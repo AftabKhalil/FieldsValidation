@@ -1,0 +1,137 @@
+body
+{
+	background-image:url(bk.jpeg);
+	background-repeat:repeat;
+	background-attachment:scroll;
+}
+
+.MainDiv
+{
+	width:800px;
+	color:#FFF;
+}
+
+.Heading
+{
+	font-size:50px;
+	margin-bottom:5px;
+	color:#FFF;
+	text-shadow:2px 2px 5px #666;
+}
+
+p
+{
+	margin:0px;
+}
+
+fieldset
+{
+	text-align:left;
+	font-weight:bolder;
+}
+
+.Table
+{
+	color:#FFF;
+}
+
+#ISN
+{
+	font-size:10px;
+	color:#F00;
+	float:left;
+	margin-left:150px;
+	display:none;
+}
+
+#IFN
+{
+	font-size:10px;
+	color:#F00;
+	float:left;
+	margin-left:150px;
+	display:none;
+}
+
+#IEM
+{
+	font-size:10px;
+	color:#F00;
+	float:left;
+	margin-left:150px;
+	display:none;
+}
+
+#IP
+{
+	font-size:10px;
+	color:#F00;
+	float:left;
+	margin-left:150px;
+	display:none;
+}
+
+#ICP
+{
+	font-size:10px;
+	color:#F00;
+	float:left;
+	margin-left:150px;
+	display:none;
+}
+
+#IDOB
+{
+	font-size:10px;
+	color:#F00;
+	float:left;
+	margin-left:150px;
+	display:none;
+}
+
+#IG
+{
+	font-size:10px;
+	color:#F00;
+	float:left;
+	margin-left:150px;
+	display:none;
+}
+
+#IR
+{
+	font-size:10px;
+	color:#F00;
+	float:left;
+	margin-left:150px;
+	display:none;
+}
+
+#IC
+{
+	font-size:10px;
+	color:#F00;
+	float:left;
+	margin-left:150px;
+	display:none;
+}
+
+#False
+{
+	float:right;
+	font-size:20px;
+	color:#F00;
+	float:left;
+	display:none;
+}
+
+.Title
+{
+	width:130px;
+}
+
+a
+{
+	color:#FFF;
+	text-decoration:none;
+}

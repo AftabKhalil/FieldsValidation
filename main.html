@@ -1,0 +1,168 @@
+<html>
+	<head>
+    	<title>New Email</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js"></script>
+    </head>
+    <body>
+    	<center>
+        	<div class="MainDiv">
+            	<header class="header">
+                	<h1 class="Heading">My Email</h1>
+                    <p>Let you have your own E-Mail adress!</p>
+                </header>
+                </br>
+                </br>
+                <section class="Fileds">
+                    <fieldset>
+                        <legend>Name</legend>
+                        <center>
+                            <table class="Table">
+                                <tr>
+                                    <td class="Title">Sir Name : </td>
+                                    <td><input type="text" id="SirName" onClick="sirNameClick()"/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><div id="ISN">Incorrect Sir Name</div></td>
+                                </tr>
+                                <tr>
+                                    <td class="Title">Full Name : </td>
+                                    <td><input type="text" id="FullName" onClick="fullNameClick()"/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><div id="IFN">Incorrect Full Name</div></td>
+                                </tr>
+                            </table>
+                        </center>
+                    </fieldset>
+                    </br>
+                    </br>
+                    <fieldset>
+                        <legend>E-Mail</legend>
+                        <center>
+                            <table class="Table">
+                                <tr>
+                                    <td class="Title">E-Mail : </td>
+                                    <td><input type="text" id="Email" onClick="emailClick()"/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><div id="IEM">Incorrect E-Mail</div></td>
+                                </tr>
+                            </table>
+                        </center>
+                    </fieldset>
+                    </br>
+                    </br>
+                    <fieldset>
+                        <legend>Password</legend>
+                        <center>
+                            <table class="Table">
+                                <tr>
+                                    <td class="Title">Password : </td>
+                                    <td><input type="password" id="Password" onClick="passwordClick()"/></td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2"><div id="IP">Must contain 1-9 and A-Z and a-z, lenght7-16</div></td>
+                                </tr>
+                                <tr>
+                                    <td class="Title">Confirm Password : </td>
+                                    <td><input type="password" id="ConfirmPassword" onClick="confirmPasswordClick()"/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><div id="ICP">Password donot match</div></td>
+                                </tr>
+                            </table>
+                        </center>
+                    </fieldset>
+                   </br>
+                   </br>
+                   <fieldset>
+                   		<legend>Date Of Birth</legend>
+                        <center>
+                        	<table class="Table">
+                            	<tr>
+                          			<td class="Title">Date of Birth : </td>
+                                    <td><input type="date" id="DOB" onChange="dateOfBirthClick()"/></td>
+                                </tr>
+                                <tr>
+                                	<td colspan="2"><div id="IDOB">Invalid Date Of Birth</div></td>
+                                </tr>
+                            </table>
+                        </center>
+                   </fieldset>
+                   </br>
+                   </br>
+                   <fieldset>
+                   		<legend>Gender</legend>
+                        <center>
+                        	<table class="Table">
+                            	<tr>
+                          			<td class="Title">Gender : </td>
+                                    <td>Male : <input type="radio" id="Male" name="Gender" onClick="genderClick()"/>&nbsp;&nbsp;
+                                    	Female : <input type="radio" id="Female" name="Gender" onClick="genderClick()"/></td>
+                                </tr>
+                                <tr>
+                                	<td colspan="2"><div id="IG">Please Specify Gender</div></td>
+                                </tr>
+                            </table>
+                        </center>
+                   </fieldset>
+                   </br>
+                   </br>
+                   <fieldset>
+                   		<legend>Location</legend>
+                        <center>
+                        	<table class="Table">
+                            	<tr>
+                                	<td class="Title">Region : </td>
+                                    <td>
+                                    	<select id="Region" onChange="regionClick()">
+                                        	<option>Select Region</option>
+                                        	<option>Africa</option>
+                                            <option>Asia</option>
+                                            <option>Australia</option>
+                                            <option>Antartica</option>
+                                            <option>Europe</option>
+                                            <option>North-America</option>
+                                            <option>South-America</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                	<td colspan="2"><div id="IR">Kindly Select Region</div></td>
+                                </tr>
+                            	<tr>
+                          			<td class="Title">Country : </td>
+                                    <td>
+                                    	<select id="Country" onChange="countryClick()">
+                                        	<option>Select Region First</option>
+                                    	</select>
+                                	</td>
+                                </tr>
+                                <tr>
+                                	<td colspan="2"><div id="IC">Kindly Select Country</div></td>
+                                </tr>
+                            </table>
+                        </center>
+                   </fieldset>
+                </section>
+                </br>
+                </br>
+                <table class="Table">
+                	<tr>
+                    	<td><div id="False">Some Of Your Inputs Are Wrong Correct Them!</div></td>
+                    </tr>
+                    <tr>
+                    	<td><center><input type="button" value="Make My E-Mail" onClick="submit()"/></center></td>
+                    </tr>
+                </table>
+                </br>
+                </br>
+                <footer>
+                	<div>Made By Aftab Khalil</div>
+                    <div><p><a href="#">aftabkhalil@hotmail.com</a></p></div>
+                </footer>
+            </div>
+        </center>
+    </body>
+</html>
